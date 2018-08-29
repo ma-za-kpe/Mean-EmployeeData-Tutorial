@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+const assert = require('assert');
 
 mongoose.connect("mongodb://localhost:27017/Employee1", (err) => {
     if (!err) {
